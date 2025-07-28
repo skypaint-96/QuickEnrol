@@ -1,21 +1,18 @@
 <Project>
-    <ItemGroup>
-        <!--api-->
-        <PackageVersion Include="Swashbuckle.AspNetCore" Version="6.6.2" />
-
-        <!--client-->
-        <PackageVersion Include="Microsoft.AspNetCore.Components.WebAssembly" Version="8.0.18" />
-        <PackageVersion Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="8.0.18" PrivateAssets="all" />
-
-        <!--enrolHandler-->
-        <PackageVersion Include="Microsoft.Extensions.Hosting" />
-
-        <!--tests-->
-        <PackageVersion Include="coverlet.collector" Version="6.0.0" />
-        <PackageVersion Include="Microsoft.NET.Test.Sdk" Version="17.8.0" />
-        <PackageVersion Include="xunit" Version="2.5.3" />
-        <PackageVersion Include="xunit.runner.visualstudio" Version="2.5.3" />
-
-        <PackageVersion Include="Nerdbank.GitVersioning" Version="3.7.115" PrivateAssets="all"/>
-    </ItemGroup>
+  <ItemGroup>
+    <!--api-->
+    <PackageVersion Include="Swashbuckle.AspNetCore" Version="9.0.3" />
+    <!--client-->
+    <PackageVersion Include="Microsoft.AspNetCore.Components.WebAssembly" Version="9.0.7" />
+    <PackageVersion Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="9.0.7" PrivateAssets="all" />
+    <!--enrolHandler-->
+    <PackageVersion Include="Microsoft.Extensions.Hosting" Version="9.0.7" />
+    <!--tests-->
+    <PackageVersion Include="coverlet.collector" Version="6.0.4" />
+    <PackageVersion Include="Microsoft.NET.Test.Sdk" Version="17.14.1" />
+    <PackageVersion Include="xunit" Version="2.9.3" />
+    <PackageVersion Include="xunit.runner.visualstudio" Version="3.1.3" />
+	<!--shared-->
+    <PackageVersion Include="Nerdbank.GitVersioning" Version="3.7.115" PrivateAssets="all" />
+  </ItemGroup>
 </Project>

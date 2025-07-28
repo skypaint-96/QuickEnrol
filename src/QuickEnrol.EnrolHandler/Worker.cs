@@ -1,5 +1,11 @@
 namespace QuickEnrol.EnrolHandler
 {
+    using Microsoft.Extensions.Hosting;
+    using Microsoft.Extensions.Logging;
+    using System;
+    using System.Threading;
+    using System.Threading.Tasks;
+
     public class Worker : BackgroundService
     {
         private readonly ILogger<Worker> _logger;
