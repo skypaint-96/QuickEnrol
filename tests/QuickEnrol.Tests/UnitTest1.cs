@@ -1,5 +1,7 @@
 namespace QuickEnrol.Tests
 {
+    using Xunit;
+
     public class UnitTest1
     {
         [Fact]

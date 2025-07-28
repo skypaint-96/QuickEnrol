@@ -1,8 +1,11 @@
-using Microsoft.AspNetCore.Components.Web;
-using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
-
-namespace BlazorApp1.Client
+namespace QuickEnrol.Client
 {
+    using Microsoft.AspNetCore.Components.Web;
+    using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
+    using Microsoft.Extensions.DependencyInjection;
+    using System;
+    using System.Net.Http;
+    using System.Threading.Tasks;
     public class Program
     {
         public static async Task Main(string[] args)
