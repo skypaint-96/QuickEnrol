@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorApp1.Client", "src\BlazorApp1.Client\BlazorApp1.Client.csproj", "{37F127FB-6F83-4202-A1E6-4621003B01F9}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickEnrol.Api", "src\QuickEnrol.Api\QuickEnrol.Api.csproj", "{AECCF790-DE08-48BB-8805-7745D2873733}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickEnrol.EnrolHandler", "src\QuickEnrol.EnrolHandler\QuickEnrol.EnrolHandler.csproj", "{B5917B49-9EDB-44E9-98BF-42FA0EA0D452}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickEnrol.Tests", "tests\QuickEnrol.Tests\QuickEnrol.Tests.csproj", "{5DABCDAC-1402-469D-A6FC-517F18FD675A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickEnrol.Client", "src\QuickEnrol.Client\QuickEnrol.Client.csproj", "{D694B16D-0AF7-8730-23B6-98FA35A0CC76}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{37F127FB-6F83-4202-A1E6-4621003B01F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{37F127FB-6F83-4202-A1E6-4621003B01F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{37F127FB-6F83-4202-A1E6-4621003B01F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{37F127FB-6F83-4202-A1E6-4621003B01F9}.Release|Any CPU.Build.0 = Release|Any CPU
 		{AECCF790-DE08-48BB-8805-7745D2873733}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{AECCF790-DE08-48BB-8805-7745D2873733}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AECCF790-DE08-48BB-8805-7745D2873733}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -33,6 +29,10 @@ Global
 		{5DABCDAC-1402-469D-A6FC-517F18FD675A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5DABCDAC-1402-469D-A6FC-517F18FD675A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5DABCDAC-1402-469D-A6FC-517F18FD675A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D694B16D-0AF7-8730-23B6-98FA35A0CC76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D694B16D-0AF7-8730-23B6-98FA35A0CC76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D694B16D-0AF7-8730-23B6-98FA35A0CC76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D694B16D-0AF7-8730-23B6-98FA35A0CC76}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
