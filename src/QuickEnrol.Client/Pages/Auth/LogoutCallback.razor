@@ -1,0 +1,13 @@
+﻿@page "/authentication/logout-callback"
+@inject NavigationManager Navigation
+
+<h3>Loging out complete</h3>
+
+
+
+@code {
+    protected override void OnInitialized()
+    {
+        Navigation.NavigateTo("/");
+    }
+}

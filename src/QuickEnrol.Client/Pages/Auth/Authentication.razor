@@ -1,0 +1,13 @@
+﻿@page "/authentication/{action}"
+@using Microsoft.AspNetCore.Components.WebAssembly.Authentication
+<RemoteAuthenticatorView Action="@Action" />
+
+@code {
+    // private RemoteAuthenticationApplicationPathsOptions _callbackPaths = new RemoteAuthenticationApplicationPathsOptions()
+    // {
+    //     LogOutCallbackPath = "/",
+    //     LogInCallbackPath = "/",
+    //     LogInPath = "/authentication/login"
+    // };
+    [Parameter] public string? Action { get; set; }
+}

@@ -1,0 +1,11 @@
+﻿@page "/authentication/login-callback"
+@inject NavigationManager Navigation
+
+<h3>Login Completed</h3>
+
+@code {
+    protected override void OnInitialized()
+    {
+        Navigation.NavigateTo("/");
+    }
+}
